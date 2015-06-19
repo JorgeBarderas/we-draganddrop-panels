@@ -1,0 +1,27 @@
+*[draggable=true] {
+  -moz-user-select:none;
+  -khtml-user-drag: element;
+  cursor: move;
+}
+
+*:-khtml-drag {
+  background-color: rgba(238,238,238, 0.5);
+}
+
+.wf-elements a span {
+  min-height: 50px;
+  font-size: 50px;
+}
+.wf-container {
+	background-color: #eee;
+	border-radius: 5px;
+	overflow: visible;
+}
+.wf-over {
+	background-color: orange !important;
+}
+.wf-subcontainer {
+	min-height: 50px;
+	background-color: #ddd;
+	border-radius: 5px;
+}
